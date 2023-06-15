@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dropdown</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="c-dropdown">
+      <div class="c-dropdown-input">
+        <div class="c-dropdown-label c-dropdown-text-overflow">
+            <span>Select a Country</span>
+        </div>
+        <div class="c-dropdown-trigger">   
+            <svg
+                width="14"
+                height="14"
+                viewBox="0 0 14 14"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class=""
+                aria-hidden="true"
+            >
+                <path
+                    d="M7.01744 10.398C6.91269 10.3985 6.8089 10.378 6.71215 10.3379C6.61541 10.2977 6.52766 10.2386 6.45405 10.1641L1.13907 4.84913C1.03306 4.69404 0.985221 4.5065 1.00399 4.31958C1.02276 4.13266 1.10693 3.95838 1.24166 3.82747C1.37639 3.69655 1.55301 3.61742 1.74039 3.60402C1.92777 3.59062 2.11386 3.64382 2.26584 3.75424L7.01744 8.47394L11.769 3.75424C11.9189 3.65709 12.097 3.61306 12.2748 3.62921C12.4527 3.64535 12.6199 3.72073 12.7498 3.84328C12.8797 3.96582 12.9647 4.12842 12.9912 4.30502C13.0177 4.48162 12.9841 4.662 12.8958 4.81724L7.58083 10.1322C7.50996 10.2125 7.42344 10.2775 7.32656 10.3232C7.22968 10.3689 7.12449 10.3944 7.01744 10.398Z"
+                    fill="#676769"
+                ></path>
+            </svg>
+        </div>
+      </div>
+
+      <!-- Dropdown panel -->
+      <div class="c-dropdown-panel">
+        <div class="c-dropdown-header">
+            <div class="c-dropdown-search-container">
+                <input type="text" class="c-dropdown-search" role="searchbox" autocomplete="off"/>
+                <svg xmlns="http://www.w3.org/2000/svg" width="23px" height="23px" viewBox="0 0 24 24" fill="none" class="c-dropdown-search-icon">
+                    <path d="M20 20L15.8033 15.8033C15.8033 15.8033 14 18 10.5 18C6.35786 18 3 14.6421 3 10.5C3 6.35786 6.35786 3 10.5 3C14.6421 3 18 6.35786 18 10.5C18 11.0137 17.9484 11.5153 17.85 12" stroke="#4D4D4F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+        </div>
+
+        <div class="c-dropdown-items-wrapper">
+            <ul class="c-dropdown-items" role="listbox">
+                <li class="c-dropdown-item-wrapper" role="option">
+                    <div class="c-dropdown-item c-dropdown-multiple-item c-dropdown-text-overflow">
+                        <input type="checkbox" name="" class="c-dropdown-item-checkbox" id="checked-item1">
+                        <label for="checked-item1" class="c-dropdown-item-checkbox-label c-dropdown-text-overflow">In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</label>
+                    </div>
+
+                    <div class="c-dropdown-item-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28px" height="28px" viewBox="0 0 24 24" fill="none">
+                            <g id="Interface / Check">
+                                <path id="Vector" d="M6 12L10.2426 16.2426L18.727 7.75732" stroke="#F04935" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                        </svg>
+                    </div>
+                </li>
+                <li class="c-dropdown-item-wrapper" role="option">
+                    <div class="c-dropdown-item c-dropdown-text-overflow">
+                        In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available. In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.
+                    </div>
+
+                    <div class="c-dropdown-item-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28px" height="28px" viewBox="0 0 24 24" fill="none">
+                            <g id="Interface / Check">
+                                <path id="Vector" d="M6 12L10.2426 16.2426L18.727 7.75732" stroke="#F04935" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                        </svg>
+                    </div>
+                </li>
+                <li class="c-dropdown-item-wrapper" role="option">
+                    <div class="c-dropdown-item c-dropdown-multiple-item c-dropdown-text-overflow">
+                        <span>F3</span> - <span class="c-dropdown-text-overflow">In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</span>
+                    </div>
+
+                    <div class="c-dropdown-item-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28px" height="28px" viewBox="0 0 24 24" fill="none">
+                            <g id="Interface / Check">
+                                <path id="Vector" d="M6 12L10.2426 16.2426L18.727 7.75732" stroke="#F04935" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                        </svg>
+                    </div>
+                </li>
+                <li class="c-dropdown-item-wrapper" role="option">
+                    <div class="c-dropdown-item">
+                        <span>F3</span> - <span>Australia</span>
+                    </div>
+
+                    <div class="c-dropdown-item-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28px" height="28px" viewBox="0 0 24 24" fill="none">
+                            <g id="Interface / Check">
+                                <path id="Vector" d="M6 12L10.2426 16.2426L18.727 7.75732" stroke="#F04935" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                        </svg>
+                    </div>
+                </li>
+                <li class="c-dropdown-item-wrapper" role="option">
+                    <div class="c-dropdown-item">
+                        <span>F3</span> - <span>Australia</span>
+                    </div>
+
+                    <div class="c-dropdown-item-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28px" height="28px" viewBox="0 0 24 24" fill="none">
+                            <g id="Interface / Check">
+                                <path id="Vector" d="M6 12L10.2426 16.2426L18.727 7.75732" stroke="#F04935" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                        </svg>
+                    </div>
+                </li>
+                <li class="c-dropdown-item-wrapper" role="option">
+                    <div class="c-dropdown-item">
+                        <span>F3</span> - <span>Australia</span>
+                    </div>
+
+                    <div class="c-dropdown-item-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28px" height="28px" viewBox="0 0 24 24" fill="none">
+                            <g id="Interface / Check">
+                                <path id="Vector" d="M6 12L10.2426 16.2426L18.727 7.75732" stroke="#F04935" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                        </svg>
+                    </div>
+                </li>
+                <li class="c-dropdown-item-wrapper" role="option">
+                    <div class="c-dropdown-item">
+                        <span>F3</span> - <span>Australia</span>
+                    </div>
+
+                    <div class="c-dropdown-item-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28px" height="28px" viewBox="0 0 24 24" fill="none">
+                            <g id="Interface / Check">
+                                <path id="Vector" d="M6 12L10.2426 16.2426L18.727 7.75732" stroke="#F04935" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                        </svg>
+                    </div>
+                </li>
+                <li class="c-dropdown-item-wrapper" role="option">
+                    <div class="c-dropdown-item">
+                        <span>F3</span> - <span>Australia</span>
+                    </div>
+
+                    <div class="c-dropdown-item-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28px" height="28px" viewBox="0 0 24 24" fill="none">
+                            <g id="Interface / Check">
+                                <path id="Vector" d="M6 12L10.2426 16.2426L18.727 7.75732" stroke="#F04935" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                        </svg>
+                    </div>
+                </li>
+                <li class="c-dropdown-item-wrapper" role="option">
+                    <div class="c-dropdown-item">
+                        <span>F3</span> - <span>Australia</span>
+                    </div>
+
+                    <div class="c-dropdown-item-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28px" height="28px" viewBox="0 0 24 24" fill="none">
+                            <g id="Interface / Check">
+                                <path id="Vector" d="M6 12L10.2426 16.2426L18.727 7.75732" stroke="#F04935" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                        </svg>
+                    </div>
+                </li>
+                <li class="c-dropdown-item-wrapper" role="option">
+                    <div class="c-dropdown-item">
+                        <span>F3</span> - <span>Australia</span>
+                    </div>
+
+                    <div class="c-dropdown-item-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28px" height="28px" viewBox="0 0 24 24" fill="none">
+                            <g id="Interface / Check">
+                                <path id="Vector" d="M6 12L10.2426 16.2426L18.727 7.75732" stroke="#F04935" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                        </svg>
+                    </div>
+                </li>
+                <li class="c-dropdown-item-wrapper" role="option">
+                    <div class="c-dropdown-item">
+                        <span>F3</span> - <span>Australia</span>
+                    </div>
+
+                    <div class="c-dropdown-item-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28px" height="28px" viewBox="0 0 24 24" fill="none">
+                            <g id="Interface / Check">
+                                <path id="Vector" d="M6 12L10.2426 16.2426L18.727 7.75732" stroke="#F04935" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                        </svg>
+                    </div>
+                </li>
+            </ul>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
