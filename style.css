@@ -27,13 +27,14 @@ input {
     justify-content: space-between;
     background-color: #fff;
     border: 1px solid #DBDBDB;
-    border-radius: 4px;
+    border-radius: 4px 4px 0 0;
     cursor: pointer;
 }
 
 .c-dropdown-text-overflow {
-    text-overflow: ellipsis;
-    white-space: nowrap;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
     overflow: hidden;
 }
 
@@ -66,8 +67,6 @@ input {
     background-color: #f8f9fa;
     color: #151414;
     border-bottom: 1px solid #dee2e6;
-    border-top-right-radius: 4px;
-    border-top-left-radius: 4px;
 }
 
 .c-dropdown-search-container {
@@ -102,7 +101,7 @@ input {
     overflow-y: auto;
     background-color: #FFFFFF;
     box-shadow: 0px 6px 70px rgba(50, 50, 50, 0.2);
-    border-radius: 4px;
+    border-radius: 0 0 4px 4px;
     padding: 0.5rem 1rem;
 }
 
